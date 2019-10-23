@@ -8,5 +8,6 @@ namespace MicroRabbitMQ.Banking.Application.Interfaces
     public interface IAccountService
     {
         IEnumerable<Account> GetAccounts();
+        void Transfer(AccountTransfer accountTransfer);
     }
 }
