@@ -4,4 +4,14 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MicroRabbitMQ.Domain.Core\MicroRabbitMQ.Domain.Core.csproj" />
+    <ProjectReference Include="..\MicroRabbitMQ.Transfer.Data\MicroRabbitMQ.Transfer.Data.csproj" />
+    <ProjectReference Include="..\MicroRabbitMQ.Transfer.Domain\MicroRabbitMQ.Transfer.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
